@@ -45,3 +45,33 @@ public class Variables {
 
 	}
 }
+
+// Doing basic math with Java
+public class Arithmetic {
+	public static void main(String[] args) {
+
+		int myNumber = 2 * 9;
+    
+		int sum = 34 + 113;
+		int difference = 91 - 205;
+		int product = 2 * 8; 
+		int quotient = 45 / 3;
+    
+		System.out.println(myNumber);
+		System.out.println(sum);
+		System.out.println(difference);
+		System.out.println(product);
+		System.out.println(quotient);
+
+	}
+}
+
+// Using modulo operator to print out the remainder of 2
+public class Modulo {
+	public static void main(String[] args) {
+
+		int myRemainder = 16 % 7;
+		System.out.println(myRemainder);
+
+	}
+} 

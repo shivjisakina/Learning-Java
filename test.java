@@ -75,3 +75,13 @@ public class Modulo {
 
 	}
 } 
+
+// Using Relational Operators to get booleans
+public class RelationalOperators {
+	public static void main(String[] args) {
+
+	System.out.println(9 < 7); // false
+    System.out.println(2 < 7); // true
+
+	}
+}

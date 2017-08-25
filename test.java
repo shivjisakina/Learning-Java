@@ -80,8 +80,21 @@ public class Modulo {
 public class RelationalOperators {
 	public static void main(String[] args) {
 
-	System.out.println(9 < 7); // false
-    System.out.println(2 < 7); // true
+		System.out.println(9 < 7); // false
+    	System.out.println(2 < 7); // true
 
+	}
+}
+
+// Using Equality Operators
+public class EqualityOperators {
+	public static void main(String[] args) {
+
+    	System.out.println(false == false); //true
+    	System.out.println(true == true); //true
+		System.out.println(true == false); //false
+    	System.out.println(true != true); //false
+		System.out.println(false != true); //true
+    
 	}
 }

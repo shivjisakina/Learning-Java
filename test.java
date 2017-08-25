@@ -28,11 +28,20 @@ public class DataTypes {
 // char is short for character and can represent a single character.
 // All char values must be enclosed in single quotes
 public class DataTypesC {
-
 	public static void main(String[] args) {
 
 		System.out.println('s');
 
 	}
+}
 
+// Setting primative types in variables
+public class Variables {
+	public static void main(String[] args) {
+
+		int myNumber = 42;
+		boolean isFun = true; 
+		char movieRating = 'A'; 
+
+	}
 }

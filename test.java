@@ -124,6 +124,8 @@ Equality Operators include == and !=.
 // ================================================================
 
 // Booleanssss
+
+// And (&&)
 public class And {
 	public static void main(String[] args) {
 
@@ -131,5 +133,30 @@ public class And {
     System.out.println(true && false); // false
     System.out.println(true && true); // false
 		System.out.println(5 > 3 && 4 < 5); // true
+	}
+}
+
+// Or (||)
+public class Or {
+	public static void main(String[] args) {
+		
+		System.out.println(2 > 1 || 3 > 4); /* print out true because at least one statement  "2 is greater than 1"  is true even though the other statement  "3 is greater than 4"  is false. */
+    	System.out.println(false || false); // false
+		System.out.println(false || true); // true
+		System.out.println(true || false); // true
+		System.out.println(true || true); // true
+		System.out.println(2 < 1 || 3 > 4); // false
+		
+	}
+}
+
+public class Not {
+	public static void main(String[] args) {
+
+		System.out.println(false); // false
+		System.out.println( (5>=1) ); //true
+		System.out.println(!false); // true
+		System.out.println( !(5>=1) ); //false
+		
 	}
 }

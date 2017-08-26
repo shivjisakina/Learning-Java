@@ -125,6 +125,10 @@ Equality Operators include == and !=.
 
 // Booleanssss
 
+/* 	! is evaluated first
+	&& is evaluated second
+	|| is evaluated third */
+
 // And (&&)
 public class And {
 	public static void main(String[] args) {
@@ -150,6 +154,7 @@ public class Or {
 	}
 }
 
+// Not (!)
 public class Not {
 	public static void main(String[] args) {
 

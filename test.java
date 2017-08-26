@@ -122,3 +122,14 @@ Equality Operators include == and !=.
 */
 
 // ================================================================
+
+// Booleanssss
+public class And {
+	public static void main(String[] args) {
+
+		System.out.println(2 < 3 && 4 < 5); // true
+    System.out.println(true && false); // false
+    System.out.println(true && true); // false
+		System.out.println(5 > 3 && 4 < 5); // true
+	}
+}
